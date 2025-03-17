@@ -598,6 +598,10 @@ video {
   letter-spacing: 0.05em;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .m-4{
   margin: 1rem;
 }
@@ -894,10 +898,6 @@ video {
 @media (min-width: 768px){
   .md\:col-span-1{
     grid-column: span 1 / span 1;
-  }
-
-  .md\:col-span-2{
-    grid-column: span 2 / span 2;
   }
 
   .md\:block{
